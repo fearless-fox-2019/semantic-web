@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <link rel="stylesheet" href="./style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Treasure of Tapanuli</title>
+</head>
+
+<body>
+
+    <div style="background-color: white; position: absolute; z-index: 100; margin: -8px;">
+        <ul id="navbar-ul">
+            <li class="navbar-li" id="btn-halaman-utama"><a href="#">Halaman Utama</a></li>
+            <li class="navbar-li" id="btn-sejarah"><a href="#">Sejarah</a></li>
+            <li class="navbar-li" id="btn-destinasi"><a href="#">Destinasi Wisata</a></li>
+        </ul>
+    </div>
+
+
+
+    <div id="page-halaman-utama" class="page">
+        <div class="title-halaman">
+            <h1>Selamat Datang di Treasure of Tapanuli</h1>
+        </div>
+
+        <div id="slideshow-container">
+            <div class="slides fade">
+                <img src="https://maritim.go.id/konten/unggahan/2016/01/tongging-ok.jpg" alt="Wisata Pantai Binasi">
+                <div class="slide-caption">Danau Toba, Tapanuli</div>
+            </div>
+
+            <div class="slides fade">
+                <img src="https://3.bp.blogspot.com/--utzlzMGWW0/Uv76XDqBlII/AAAAAAAAALs/fVkChEI7aoA/s1600/Pulau+Putri.JPG" alt="Wisata Pantai Putri">
+                <div class="slide-caption">Pantai Putri, Tapanuli Tengah</div>
+            </div>
+
+            <div class="slides fade">
+                <img src="https://3.bp.blogspot.com/-fYTYIZzD58o/VBWzPRtykVI/AAAAAAAABFg/Zp6g3QF7en4/s1600/Pantai%2BSosor%2BGodang%2BTapteng.JPG" alt="Wisata Pantai Binasi">
+                <div class="slide-caption">Pantai Sosor Godang, Barus, Tapanuli Tengah</div>
+            </div>
+
+            <a class="prev" onclick="slideNavigate(-1)">&#10094;</a>
+            <a class="next" onclick="slideNavigate(1)">&#10095;</a>
+
+        </div>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </div>
+
+    <div id="page-sejarah" class="page">
+        <div class="title-halaman">
+                <h1>Sejarah Tapanuli</h1>
+        </div>
+
+        <div>
+            <p style="">
+                    Karesidenan Tapanuli atau Tapian Naoeli (bahasa Belanda: Tapanoeli Residentie) adalah wilayah administrasi karesidenan Hindia Belanda yang beribu kota di Sibolga. Wilayah Karesidenan ini pernah meliputi wilayah Tapanuli sampai pesisir barat Sumatra Utara dan Aceh. Dalam administrasi kendaraan bermotor, wilayah eks-Karesidenan Tapanuli diberi kode Tanda Nomor Kendaraan Bermotor (TNKB) dengan huruf BB. 
+                </p>
+                <br>
+                <p>
+                    Karesidenan Tapanuli terbentuk sejak pemerintah Hindia Belanda melakukan ekspansi ke daerah Sumatra dari tahun 1824 sampai 1934.Residen Tapanuli di bentuk tahun 1842, sebelumnya berada di bawah keresidenan Ajer bangis dari tahun 1837 sampai 1841.Pada tahun 1905, Karesidenan Tapanuli menjadi karesedinan yang berdiri sendiri di bawah Gouvernment Batavia, karena Gouvernment Sumatra's Westkust di turunkan statusnya menjadi Karesidenan. Tahun 1902, Afdeling Trumon, berikutnya tahun 1903 afdeling Singkil di satukan dengan Karesidenan Aceh.Tahun 1938, seluruh karesidenan di pulau Sumatra berada di bawah Gouvernment Sumatra Einland yang beribu kota di Medan.
+                </p>
+                <br>
+                <p>
+                    Ekonomi Resident Tapanoeli mengandalkan hasil alam seperti Kemenyan, Damar, Kamfer,Gambir, minyak Kelapa, Rotan, Biji emas dll, di sektor peternakan tercatat pada tahun 1851 sbb:
+                </p>
+                <br>
+                <table>
+                    <tr>
+                        <th>Hewan</th>
+                        <th>Betina</th>
+                        <th>Jantan</th>
+                        <th>Jumlah</th>
+                        <th>Harga (dalam Florin)</th>
+                    </tr>
+                    <tr>
+                        <td>Kuda</td>
+                        <td>497</td>
+                        <td>671</td>
+                        <td>1168</td>
+                        <td>20 sampai 120</td>
+                    </tr>
+                    <tr>
+                        <td>Kerbau</td>
+                        <td>1435</td>
+                        <td>5344</td>
+                        <td>6779</td>
+                        <td>20 sampai 50</td>
+                    </tr>
+                    <tr>
+                        <td>Sapi</td>
+                        <td>753</td>
+                        <td>2896</td>
+                        <td>3649</td>
+                        <td>15 sampai 30</td>
+                    </tr>
+                    <tr>
+                        <td>Kambing</td>
+                        <td>1157</td>
+                        <td>1720</td>
+                        <td>2886</td>
+                        <td>2 sampai 10</td>
+                    </tr>
+                    <tr>
+                        <td>Domba</td>
+                        <td>24</td>
+                        <td>47</td>
+                        <td>71</td>
+                        <td>5 sampai 12</td>
+                    </tr>
+                </table>
+
+                <br>
+                <p>
+                    Wilayah Keresidenan Tapanoeli berada di wilayah Sumatra's Weskust tahun 1852 dengan batas-batas sebagai berikut:
+                </p>
+                <br>
+                <table>
+                    <tr style="text-align: center">
+                        <th colspan="2">
+                            Daftar Wilayah
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>Utara</th>
+                        <td>Groot-Tobah wilayah Dairi, Pasenriboe, Salindong, Tobah dan Padanglawas</td>
+                    </tr>
+                    <tr>
+                        <th>Timur</th>
+                        <td>Boeloe Soema dan Batoe Bara</td>
+                    </tr>
+                    <tr>
+                        <th>Selatan</th>
+                        <td>Afdeeling Ajer Bangis dan Rau</td>
+                    </tr>
+                    <tr>
+                        <th>Barat</th>
+                        <td>Lautan Hindia</td>
+                    </tr>
+                </table>
+        </div>
+    </div>
+
+    <div id="page-destinasi" class="page">
+            <div class="title-halaman">
+                    <h1>Destinasi Wisata Tapanuli</h1>
+            </div>
+
+            <div style="width: 80%; text-align: justify; margin: auto; margin-top: 50px;">
+                <div>
+                        <h3>1. Pantai Lumban Bulbul</h3>
+                        <span class="img-destinasi-container">
+                            <img class="img-destinasi" src="https://ik.imagekit.io/tripelaketoba/wp-content/uploads/2016/07/pantai-bulbul-1024x683.jpg" alt=""> 
+                        </span>
+                        <p style="width: 100%; margin-top: 20px;">
+                            Pantai Lumban Bul-bul adalah pantai yang berada di kota Balige, sebuah kota kecil yang terletak di dekat Danau Toba. Pantai ini menawarkan panorama indah dengan pasir putih dan lembut.Pantai ini merupakan lokasi wisata yang cocok untuk keluarga, karena selain menawarkan pemandangan yang indah, pantai ini juga dangkal sehingga cocok untuk bermain anak-anak.
+                        </p>
+                        <br>
+                        <p style="width: 100%;">
+                            Pantai Lumban Bulbul terletak di Desa Lumban Bul-bul, Balige, Tobasa. Jarak pantai ini dari Balige kurang lebuh sekitar 2 km. Untuk menuju pantai ini, Anda bisa mengunakan kendaraan sewaan atau kendaraan umum. Salah satu moda transportasi yang bisa Anda gunakan untuk menuju pantai ini adalah Ojek.
+                        </p>
+                        <hr>
+                        <h3>2. Pulau Samosir</h3>
+                        <div class="img-destinasi-container">
+                            <img class="img-destinasi" src="https://www.superadventure.co.id/uploads/news/2018/06/04/f1885534690a.jpg" alt=""> 
+                        </div>
+                        <p style="width: 100%; margin-top: 20px;">
+                                Samosir sendiri merupakan salah satu kabupaten di Provinsi Sumatera Utara. Petualangan Anda di Samosir Sumatera akan diwarnai riak khas dari tiap kecamatan dengan magnetnya masing-masing. Bagi para pecinta alam domestik, nama Pulau Samosir pastilah sudah tidak asing lagi.
+                        </p>
+                        <br>
+                        <p style="width: 100%;">
+                            Tidak hanya wisata alam saja yang ditawarkan, Anda juga akan disuguhkan wisata sejarah yang masih terasa nuansa kebudayaannya. Beberapa diantaranya seperti menyaksikan pertunjukan Sigale-gale (di Tomok), berkeliling Museum Huta Bolon, mengunjungi Makam Raja Sidabutar, serta keunikan Batu Parsidangan.
+                        </p>
+                        <br>
+                        <p style="width: 100%;">
+                            Apabila Anda melihat sekeliling, akan tampak seolah tiap jengkal tepi pulau Samosir Sumatera dipagari oleh jernihnya perairan Danau Toba yang begitu luas. Sungguh menakjubkan! Masih belum cukup? Anda bisa berkelana sejenak di Goa Marlakkop, bersantai di pemandian air panas, dan masih banyak lagi.
+                        </p>
+                        <br>
+                        <p style="width: 100%;">
+                            Pesona pulau di tengah danau dengan ketinggian 1000 mdpl ini membuatnya menjadi kunjungan ‘wajib’ bagi para wisatawan, baik domestik maupun mancanegara. Jangan heran bila Anda ingin kembali lagi ke tempat ini, saat Anda sudah berada di rumah.
+                        </p>
+                        <br>
+                        <p style="width: 100%;">
+                            Terdapat banyak akses untuk menuju Pulau Samosir. Bagi Anda yang sudah bosan dengan perjalanan darat, tidak perlu khawatir. Terdapat tiga jalur perairan melalui Danau Toba, diantaranya melalui Pelabuhan Ajibata ke Pelabuhan Tomok, melalui Tigaras menuju Simanindo dan juga dari Muara menuju Nainggolan. Khusus untuk jalur melalui Muara menuju Nainggolan, kapal Ferry hanya beroperasi pada hari Senin, Kamis dan Sabtu. Perjalanan darat menuju pulau di tengah danau dapat Anda tempuh melalui jembatan yang dibangun pada masa Belanda. Pilihan perjalanan ini akan membawa Anda melalui Jalan Tele, yaitu jalur yang menghubungan Samosir dengan Kabupaten Humbang Hasundutan. Jika Anda memutuskan untuk menikmati perjalanan dengan menyetir sendiri pastikan tetap waspada, sebab jalanan cukup licin dan berkelok meski secara keseluruhan sudah beraspal.
+                        </p>
+                        <hr>
+                    
+                </div>
+            </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="./driver.js"></script>
+</body>
+
+</html>
