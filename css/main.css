@@ -1,0 +1,53 @@
+img.d-block {
+  filter: blur(3px);
+}
+
+#roadImg {
+  filter: grayscale(75%)
+}
+
+#roadText {
+  background-color: dimgrey;
+  opacity: 0.7
+}
+
+#myProfile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background-color: lightslategray;
+  opacity: 0.8;
+  font-family: 'Sniglet', cursive;
+}
+
+#myPorto {
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+  font-family: 'Sniglet', cursive;
+}
+
+.title{
+  text-align: center;
+  font-family: 'Sniglet', cursive;
+  font-size: 60px;
+}
+
+.container {
+  color: whitesmoke;
+  justify-content: center;
+  text-align: center;
+}
+
+.p-2 {
+  width: 553px;
+  border-style: double;
+  border-radius: 25px;
+  text-align: center;
+}
+
+#sticky-footer {
+  flex-shrink: unset;
+}
