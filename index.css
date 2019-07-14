@@ -1,0 +1,58 @@
+.body-margin{
+  margin: 80px 250px 80px 250px;
+}
+
+.img-background{
+  background-color: #D9BD83;
+}
+
+.body-padding{
+  padding: 40px 80px 40px 80px;
+}
+
+.p-padding{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.round-border{
+  border-radius: 15px;
+}
+
+.body-color{
+  border: 2px solid;
+  background-color: #D9BD83;
+}
+
+body{
+  background: url("https://www.ancient.eu/img/r/p/750x750/6094.jpg?v=1485682698");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+a{
+  color: #456EC2;
+  text-decoration: none;
+}
+
+.white{
+  color: black;
+}
+
+.middle{
+  text-align: center;
+}
+
+.times{
+  font-family: roboto;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.img-resize{
+  max-width: 50%;
+  max-height: 50%;
+}
