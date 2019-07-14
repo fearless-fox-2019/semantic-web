@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator Body Weight</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <a class="navbar-brand" href="#"><i class="fas fa-weight"></i> Calculator Body-Weight</a>
+        <span class="navbar-toggler-icon"></span>
+        
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="blog" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " data-value="contact" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="card">
+                <h5 class="card-header">Welcome</h5>
+                <div class="card-body">
+                    <h5 class="card-title"> Calculate your BMI</h5>
+                    <p class="card-text">
+                        <form id="myForm">
+                            <div class="formGroup">
+                                <h4>Choose your gender</h4><br>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1"><img
+                                            src="https://img.icons8.com/color/96/000000/person-male.png" alt="male"></label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2"><img
+                                            src="https://img.icons8.com/color/96/000000/businesswoman.png" alt="female"></label>
+                                </div>
+
+                            </div>
+
+                            <div class="formGroup">
+                                <label for="height">Your Height </label><br>
+                                <input class="inputForm" type="number" id="height" placeholder="cm">
+                            </div>
+                            <div class="formGroup">
+                                <label for="weight">Your Weight </label><br>
+                                <input class="inputForm" type="number" id="weight" placeholder="kg">
+                            </div>
+                        </form>
+                    
+                    <a href="#output" class="btn btn-primary">Calculate</a>
+                </div>
+            </div>
+
+            <section id="output">
+
+
+            </section>
+
+        </div>
+    </header>
+
+    <footer>
+        <div class="footer">
+            <a>Viuty Tiadita <i class="fas fa-copyright"></i> 2019 Daring Fox</a>
+        </div>
+    </footer>
+
+    <script src="js/script-calculation.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
