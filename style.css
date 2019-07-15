@@ -1,0 +1,197 @@
+body {
+    font: 15px/1.5 Arial, helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Global */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* header **/
+header {
+    background: #660033;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70%;
+    border-bottom: #e8491d 3px solid;
+    position: relative;
+    height: 56;
+    z-index: 998;
+}
+
+header #branding {
+    float: left;
+}
+
+header #branding h1 {
+    margin: 0 0 10px 0;
+}
+
+header .highlight {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+/*space**/
+#space {
+    margin-top: 20px;
+}
+
+/*list**/
+.list-group {
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .075);
+}
+
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.panel>.list-group,
+.panel>.panel-collapse>.list-group {
+    margin-bottom: 0;
+}
+
+.panel-group .panel-heading+.panel-collapse>.panel-body,
+.panel-group .panel-heading+.panel-collapse>.list-group {
+    border-top: 1px solid #ddd;
+}
+
+.glyphicon-trash:before {
+    content: "delete";
+}
+
+.text-danger {
+    color: #a94442;
+}
+
+a.text-danger:hover,
+a.text-danger:focus {
+    color: #843534;
+}
+
+.text-primary {
+    color: #e8491d;
+}
+
+.button_1 {
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*border-radius: 10px;**/
+    color: #ffffff;
+}
+
+.button_2 {
+    height: 38px;
+    background: #009933;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    border: #ffc 2px solid;
+    margin-left: 25px;
+}
+
+.button_3 {
+    background: #e8491d;
+    height: 30px;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    padding-top: 0px;
+
+}
+
+.btn-success .badge,
+.btn-warning .badge {
+    text-shadow: none
+}
+
+.btn.active,
+.btn:active {
+    background-image: none
+}
+
+.btn-default {
+    text-shadow: 0 1px 0 #fff;
+    background-image: -webkit-linear-gradient(top, #fff 0, #e0e0e0 100%);
+    background-image: -o-linear-gradient(top, #fff 0, #e0e0e0 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#e0e0e0));
+    background-image: linear-gradient(to bottom, #fff 0, #e0e0e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #dbdbdb;
+    border-color: #ccc
+}
+
+.btn-default:focus,
+.btn-default:hover {
+    background-color: #e0e0e0;
+    background-position: 0 -15px
+}
+
+.btn-default.active,
+.btn-default:active {
+    background-color: #e0e0e0;
+    border-color: #dbdbdb
+}
+
+
+
+.btn-primary {
+    background-image: -webkit-linear-gradient(top, #337ab7 0, #265a88 100%);
+    background-image: -o-linear-gradient(top, #337ab7 0, #265a88 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#337ab7), to(#265a88));
+    background-image: linear-gradient(to bottom, #337ab7 0, #265a88 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #245580
+}
+
+.btn-primary:focus,
+.btn-primary:hover {
+    background-color: #265a88;
+    background-position: 0 -15px
+}
+
+.btn-primary.active,
+.btn-primary:active {
+    background-color: #265a88;
+    border-color: #245580
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.glyphicon-plus:before {
+    content: "\002b"
+}
+
+.list-group {
+    padding-left: 0;
+    margin-bottom: 20px;
+}

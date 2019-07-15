@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Todo List</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Basyri</span> | <strong>Simple To Do List App </strong></h1>
+
+            </div>
+        </div>
+    </header>
+    <section id="space">
+        <div class="container">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="form-inline">
+                    <label>Add Item </label>
+                    <input type="text" id="item" class="form-inline" />
+                    <button class="btn btn-success" onclick="addItem()"><span
+                            class="glyphicon glyphicon-plus"></span></button>
+                </div>
+
+                <h3 class="text-primary">My To Do List</h3>
+                <ul class="list-group" id="list" style="word-wrap:break-word;">
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
